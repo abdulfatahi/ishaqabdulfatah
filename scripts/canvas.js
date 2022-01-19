@@ -2,7 +2,7 @@ var space;
 
 function floatySpace() {
   var colors = [
-    "#FF3F8E", "#04C2C9", "#2E55C1"
+    "#FF3F8E", "#04C2C9", "#2E55C1",
   ];
 
 
@@ -34,8 +34,8 @@ function floatySpace() {
         // rotate the points slowly
         var pt = pts[i];
 
-        pt.rotate2D( Const.one_degree / 20, center);
-        form.stroke( false ).fill( colors[i % 3] ).point(pt, 1);
+        pt.rotate2D( Const.one_degree / 45, center);
+        form.stroke( false ).fill( colors[i % 5] ).point(pt, 1);
 
         // get line from pt to the mouse line
         var ln = new Line( pt ).to( line.getPerpendicularFromPoint(pt));

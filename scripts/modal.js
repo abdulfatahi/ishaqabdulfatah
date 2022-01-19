@@ -1,19 +1,19 @@
 $(document).ready(function () {
   // MODAL
   var modalText = {
-    pgoldhome: {
-      title: 'TradewithPGold Home',
-      tag: 'CRYPTO TRADING PLATFORM.',
-      detail:
-        'TradewithPGold Home is the home/landing page of a crypto exchange platform that lets customers exchange their crypto currency and giftcards to local currency easily and efficiently.',
-      link: 'https://tradewithpgold.com/',
-    },
     rsglobal: {
       title: 'Real Source Global Investment',
       tag: 'INVESTMENT PLATFORM.',
       detail:
         'Real Source Global Investment Application is an investment platform for customers to invest their money and earn returns at specified intervals with other features such as Multi Level Marketing, Referrals, Withdrawal functions, etc.',
-      link: 'http://app.rsglobal.com.ng',
+      link: 'http://rsglobal.com.ng',
+    },
+    mybetwealth: {
+      title: 'My Bet Wealth',
+      tag: 'BET STAKING PLATFORM.',
+      detail:
+        'MyBetWealth Application is a bet staking platform for customers to invest their money on bet stakes (on football matches) and earn returns at specified intervals with other features such as Multi Level Marketing, Referrals, Withdrawal functions, etc.',
+      link: 'https://mybetwealth.com',
     },
     brixenmore: {
       title: 'Brixenmore Real Estate - Coming Soon',
@@ -21,11 +21,25 @@ $(document).ready(function () {
       detail: 'Brixenmore is a real estate platform.',
       link: 'http://brixenmore.com',
     },
+    brixenmore_app: {
+      title: 'Brixenmore Real Estate - WebApp',
+      tag: 'REAL ESTATE PLATFORM.',
+      detail:
+        'Brixenmore is a real estate platform that allows property owner to list, and manage their properties for sale and rent and also for users to apply and make payment for such listed properties',
+      link: 'https://brixenmore-landing-page.vercel.app',
+    },
     owanate: {
       title: 'Owanate Amarache Portfolio',
-      tag: 'PORTFOLIO STIRE',
+      tag: 'PORTFOLIO SITE',
       detail: 'Portfolio site of Owanate Amachree',
       link: 'http://owanate.com',
+    },
+    gnome_movies: {
+      title: 'Gnome Movies ',
+      tag: 'MOVIE UPLOAD WEB APP',
+      detail:
+        'A website developed with react that allows user to search for latest movies and get information about it. It also allow user to switch between dark mode and light mode and also stores the latest movie searched by user',
+      link: 'https://gnome-movies.netlify.app',
     },
   };
 
