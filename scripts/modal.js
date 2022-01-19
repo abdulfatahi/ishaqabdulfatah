@@ -141,8 +141,8 @@ $(document).ready(function () {
     $.each($('#modal .slide'), function (index, value) {
       $(this).css({
         background:
-          "url('img/slides/" + id + '-' + index + ".jpg') center center/cover",
-        backgroundSize: 'cover',
+          "url('img/slides/" + id + '-' + index + ".jpg') no-repeat center center/cover",
+        backgroundSize: 'contain',
       });
     });
   }
