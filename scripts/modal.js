@@ -1,12 +1,12 @@
 $(document).ready(function () {
   // MODAL
   var modalText = {
-    rsglobal: {
-      title: 'Real Source Global Investment',
-      tag: 'INVESTMENT PLATFORM.',
+    kingdomcash: {
+      title: 'Kingdom Cash',
+      tag: 'WEB3/BLOCKCHAIN INVESTMENT PLATFORM.',
       detail:
-        'Real Source Global Investment Application is an investment platform for customers to invest their money and earn returns at specified intervals with other features such as Multi Level Marketing, Referrals, Withdrawal functions, etc.',
-      link: 'http://rsglobal.com.ng',
+        'Kingdomcash is a web3/blockchain platform for clients to trade the kgdc coin / kgdc token on the blockchain in realtome, earn profit, swap token for USDT and other features such as Multi Level Marketing, Referrals, Withdrawal functions, etc.',
+      link: 'https://kingdomcash.co',
     },
     mybetwealth: {
       title: 'My Bet Wealth',
@@ -14,6 +14,13 @@ $(document).ready(function () {
       detail:
         'MyBetWealth Application is a bet staking platform for customers to invest their money on bet stakes (on football matches) and earn returns at specified intervals with other features such as Multi Level Marketing, Referrals, Withdrawal functions, etc.',
       link: 'https://mybetwealth.com',
+    },
+    ashbiocare: {
+      title: 'Ashbiocare',
+      tag: 'TELEMEDICINE APP',
+      detail:
+        'A telemedicine app with features such as Video calling, chat messaging, voice calling, etc',
+      link: 'https://ash-biomedical-patient.vercel.app/',
     },
     brixenmore: {
       title: 'Brixenmore Real Estate - Coming Soon',
@@ -32,15 +39,15 @@ $(document).ready(function () {
       title: 'Owanate Amarache Portfolio',
       tag: 'PORTFOLIO SITE',
       detail: 'Portfolio site of Owanate Amachree',
-      link: 'http://owanate.com',
+      link: 'https://owanate.com',
     },
-    gnome_movies: {
-      title: 'Gnome Movies ',
-      tag: 'MOVIE UPLOAD WEB APP',
-      detail:
-        'A website developed with react that allows user to search for latest movies and get information about it. It also allow user to switch between dark mode and light mode and also stores the latest movie searched by user',
-      link: 'https://gnome-movies.netlify.app',
+    fontein_missions: {
+      title: 'Fontein Missions',
+      tag: 'NGO SITE',
+      detail: 'An NGO landing page',
+      link: 'https://fonteinmissions.com',
     },
+  
   };
 
   $('#gallery .button').on('click', function () {
