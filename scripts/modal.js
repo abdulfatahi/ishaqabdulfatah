@@ -47,6 +47,12 @@ $(document).ready(function () {
       detail: 'An NGO landing page',
       link: 'https://fonteinmissions.com',
     },
+    shopper: {
+      title: 'Shopper',
+      tag: 'ECOMMERCE',
+      detail: 'An e-commerce site',
+      link: 'https://shopper-frontend.vercel.app',
+    },
   
   };
 
